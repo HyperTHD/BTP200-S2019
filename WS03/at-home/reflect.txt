@@ -1,0 +1,39 @@
+Name: Abdulbasid Guled
+Student Number: 156024184
+Section: SAA
+Due Date: June 4th, 2019
+Workshop: 3
+
+1- A null string has the value of "null". A string of this type can't have any operations performed on it. As for an empty string, it contains nothing.
+It's a string that is completely empty. When it comes to performing operations on it, it's allowed, however, most operations will return nothing. Example,
+printing an empty string prints nothing to the screen, since it's empty. Another would be if we want the size of the string, the return value would be 0, since
+there's nothing in the string to begin with. 
+
+
+2- The feature of C++ that allows us to name two member functions called set is called, "Operator Overloading". It allows us to create functions using the same
+name with no problem. The way we differentiate from the two set functions is through the parameters we assign to them. One version of the function takes in an int
+and a double while the other version takes in variables from the class itself.
+
+
+3- I would create a function that validates the SIN number. Afterwords, I'd implement that function inside the CRA_Account::set(...) function. This would allow me 
+to update the validation logic in one place only if I ever need to update the logic behind the validation. 
+
+4- In completing this workshop, I learned about classes, how a class is constructed, and how to manage the member functions. I also learned the importance of 
+the access specifiers private, and public, and the importance of ensuring that we have member functions that are public so that we may define them outside the class
+without worrying about whether it can access the private member variables or not.
+
+
+Quiz 3 Reflection:
+
+I answered questions 1 and 3 incorrectly.
+
+For question 1:
+
+- I incorrectly wrote code to define the function. The correct answer was to simply call the function
+pipe.resize(15);
+
+For question 3: 
+
+- I incorrectly stated that a specific task of a destructor's task was to remove an object from memory when it's lifetime is complete, when it goes out of scope.
+The correct answer is that one specific task of a destructor is when we have an object that wrote data to a file needs to flush the file's buffer and close the file 
+before going out of scope.

@@ -1,0 +1,45 @@
+Name: Abdulbasid Guled
+Student Number: 156024184
+Email: aguled5@myseneca.ca
+Due Date: July 23, 2019
+Workshop 8: Reflection
+
+1. An abstract class will have one or more method(s) within the class that is declared, but not yet defined. Pure Virtual Functions are examples of this
+because they are defined in their derived class and not the base class itself.
+
+A concrete class, however, is a class where the method(s) exists within the class itself without any need of help from a derived class.
+
+2. There were 4 functions that did shadowing:
+
+They were the credit(), debit(), monthEnd(), and display() functions.
+
+The first 2 shadowed the same functions from the Account class.
+
+The second 2 shadowed the same functions from the SavingsAccount class.
+
+3. In this workshop, I learned the following:
+
+- I learned about how abstract classes work, how to create them, how to handle interfaces and defining their functions in their respective derived classes.
+I also learned 
+
+
+Quiz 8 Reflection:
+
+I answered 3 half-correct:
+
+For 2:
+
+- I mentioned that the output prints In Derived, but it also prints In Base
+
+For 3:
+
+- I printed that the constructor for the base and the destructor for the derived were called in this order
+
+- Constructor: Base
+- Constructor: Derived
+- Destructor: Derived
+- Destructor: Base
+
+For 4:
+
+- The answer was template <Type identifier>

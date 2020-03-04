@@ -1,0 +1,24 @@
+Name: Abdulbasid Guled
+Student Number: 156024184
+Email: aguled5@myseneca.ca
+Section: SAA
+Due Date: June 17, 2019
+Workshop 5: At-Home
+
+1) The operator+ does not return a reference to a Fraction object because we're not modifying the current object in this example. The operator+= updates the current object 
+and so it requires a reference to the current object. In the case of operator+, we're just defining how 2 Fraction objects work with each other and so we need only return a Fraction
+object with the total result calculated and not update the current object since we are not making any changes to it.
+
+2) The temporary objects inside the tester module are a, b, and d.
+
+3) I reused functions where needed as well as apply the + operator in the operator+=
+function to avoid having to rewrite code for the addition of 2 fraction objects.
+
+Quiz 3 Reflection:
+
+I answered question 1 incorrectly.
+
+For question 1:
+
+- I incorrectly wrote that the keyword for allowing an outside class or function the ability to access the private members of another class was "protected"
+The answer was the keyword "friend"

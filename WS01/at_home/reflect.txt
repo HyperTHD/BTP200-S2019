@@ -1,0 +1,19 @@
+Name: Abdulbasid Guled
+Student Number: 156024184
+Section: SAA
+Date: May 17, 2019
+
+
+1. The purpose of namespaces are to provide a scope to variables and functions. This is commonly done when there are multiple header files that all contain
+   variables and functions that are identical in name. By using namespaces, the compiler will know what variable or function to refer to.
+   The purpose of header files are to group together variable and function declerations that will be used commonly in other files. They allow us 
+   to call functions without needing to declare or define them again. 
+
+2. Header files should not be compiled since they do not contain any definitions of variables, functions, or even the main function itself.
+   It wouldn't have anything to run and so there would be no executable file. Header files are also always included in the preprocessor stage
+   of compilation anyway.
+
+3. .cpp files should never be included in another file because we'd essentially be including the same file twice and that would break the 
+   one definition rule. Including .cpp files also has the disadvantage in that compilation would take much longer to finish since they include
+   the definition of variables and/or functions themselves. If we're compiling a huge project, including .cpp files would drastically increase
+   the wait time we'd have for the compilation process to actually finish. 

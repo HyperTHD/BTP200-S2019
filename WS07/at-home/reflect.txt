@@ -1,0 +1,36 @@
+1. Hero does not need to know about the existence of the SuperHero class since as the base class, SuperHero inherits from Hero. All the information
+required comes from the Hero class and therefore, is not needed with regards to knowledge.
+
+2. SuperHero does need to know about the existence of the Hero class because as the derived class, it inherits from the Hero class. All information about 
+Hero is required in SuperHero, and therefore, cannot exist without Hero.
+
+3. When a Hero fights a SuperHero, the program prints out "Ancient Battle" because it uses the operator * that comes from the Hero class and not the SuperHero 
+class.
+
+4. The following definition is valid since all definitions are satisfied for a Hero. With the valid data entered in the constructor, a Hero object can successfully
+be formed. 
+
+5. The following definition is valid since all definitions for the hero are valid along with the use of ther operator *. Similar to 4, with valid data entered into 
+the constructor, the hero object can be formed. 
+
+
+Quiz 7 Reflection:
+
+I answer question 4 correctly.
+
+For question 1:
+
+Answer was:
+
+- Base1's constructor called
+- Base2's constructor called
+- Derived's constructor called
+
+For question 2:
+
+- The answer was private
+
+For question 3:
+
+- A class is abstract when a pure virtual function is declared in the class.
+

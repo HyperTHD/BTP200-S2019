@@ -1,0 +1,31 @@
+Name: Abdulbasid Guled
+Student Number: 156024184
+Due Date: July 9th, 2019
+Section: SAA
+Workshop 6: Reflection
+
+1) The copy assignment operator checks for self-assignment before doing anything else because it's needs to ensure that 
+the current object and the parameter do not have the same address in memory. By not checking the self-assignment, the deallocation
+statement (delete operator) would end up deallocating the memory that's holding any resource data and we end up losing access to the 
+source resource. We can't copy the resource data because it wouldn't exist. By checking for self-assignment, we'll know if the resource
+data has to be copied in the first place.
+
+2) My private function to validate phone numbers was one huge example of code duplication since we'd need to validate phones alot during 
+this workshop. Another point in which I avoided code duplication was by calling the copy assignment operator inside the copy constructor
+itself, allowing me to avoid repeated code for the resource data.
+
+Quiz 6 Reflection:
+
+I answered 2 question incorrectly.
+
+For question 3:
+
+- I said that derived classes would get access to the private, public, and protected members of it's base class.
+The answer is that it only gets access to the public and protected data and member functions of it's base class.
+
+For question 5:
+
+- My answer for why the copy assignment operator checks for self-assignment was incorrect as I did not know the answer exactly during this quiz.
+My asnwer was along the lines of checking to ensure the data was the same. The answer is that it checks for self-assignment to ensure that both
+the current object and the object parameter do not have the same address in memory to ensure we can copy the resource data without worrying about 
+trying to access a resource data that does not exist (As a result of calling the delete operator in the copy assignment operator).

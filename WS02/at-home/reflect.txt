@@ -1,0 +1,50 @@
+Name: Abdulbasid Guled
+Student Number: 156024184
+Section: SAA
+Due Date: May 28, 2019
+Workshop 2: At-Home
+
+
+1) We need to allocate new dynamic memory when we increase the size of an existing array
+of dynamically allocated memory because arrays by nature, are static. They are fixed in length
+and as a result, adding new data to an array is impossible because we'd be going out of bounds.
+Therefore, to be able to add more data, we need to increase the size of the array, something that's 
+only possible by dynamically allocating new memory for the new array and then copying the data from
+the old array to the new one.
+
+2) We do not need to use the delete operator on the name array because it's a member variable
+that belongs to the instance variable that it's referring to. By using the delete operator, we'd actually
+be deleting the object itself. 
+
+3) The compiler knows which definition to call from your main function through function overloading.
+When the code compiles, it looks at the function call and more specifically, the parameters that are 
+being passed. Based on the number of parameters passed in, it uses the function that matches. In this 
+workshop for example, the display function was called twice. The first one was this:
+
+display(const Kingdom& other);
+
+The other call was this:
+
+display(const struct Kingdom* kingArray, int size);
+
+In the main function, it looked at the arguments passed and based on the number of arguments, called 
+that version of the display function.
+
+4) In this workshop, I learned about dynamic memory, how to dynamically allocate new memory for instances of
+a specific type, why I need to create new memory for arrays, and lastly, the importance of deleting the instance
+from memory so that memory leak does not occur. 
+
+
+Quiz 2 Reflection:
+
+I got half marks on questions 1, and 2.
+
+For 1:
+
+- I wrote that the default parameter values are always the left-most parameter that is passed. The answer is that
+default parameter values are always the right-most parameter. 
+
+For 2:
+
+- I wrote that <iostream> must be included as well as specifying what must be used using parameters. The answer is
+that the member functions are used to control the output and that the format is used to appear how we want it to.

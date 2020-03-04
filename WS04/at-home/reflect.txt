@@ -1,0 +1,33 @@
+Name: Abdulbasid Guled
+Student Number: 156024184
+Email: aguled5@myseneca.ca
+Section: SAA
+Due Date: June 11, 2019
+Workshop: 4_At_Home
+
+
+1) A safe empty state is a well defined state of an object that ensures that nothing out of the ordinary happens to the object if the user attempts
+to put in invalid values. As for defining a safe empty state that differs from the empty state that you defined, you can absolutely do that. As long 
+as the objects are valid, then they behave as though they were set to empty states.
+
+2) I can minimize code duplication inside my validation code inside the constructors that contain parameters by calling the default constructor in the case
+of data being invalid as such:
+
+*this = Passenger();
+
+Since the default constructor sets the object to an empty state, we can simply call this constructor whenever the user puts in invalid data.
+
+3) C++ allows member functions to access the private data of any object through references. In this example, the canTravelWith(...) function 
+has a reference to a Passenger object inside it's parameter, and it's through this parameter that the function is able to access the private data 
+of the object referenced.
+
+4) I didn't use strncpy in this workshop (I used a for loop to set the data to the arrays), however, if I were to use strncpy in this workshop, I'd 
+have to include the <cstring> library to be able to use it for this workshop.
+
+5) In this workshop, I learned about how constructors operate, how to create one, how objects are created by using the constructors, how safe empty states
+work and how to set objects to empty states if my validation shows that the user inputted data incorrectly. 
+
+
+Quiz 4 Reflection:
+
+Since I got a perfect 6/6 in this week's quiz, I have no incorrectly answered questions.
